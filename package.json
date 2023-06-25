@@ -14,5 +14,10 @@
     "puppeteer": "^20.7.3",
     "qrcode": "^1.5.3",
     "whatsapp-web.js": "^1.21.0"
+  },
+  "overrides": {
+    "whatsapp-web.js": {
+      "puppeteer": "$puppeteer"
+    }
   }
 }
