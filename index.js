@@ -1,4 +1,6 @@
 const { Client, LocalAuth } = require('whatsapp-web.js');
+const fs = require("fs");
+
 const client = new Client({
   authStrategy: new LocalAuth()
 });
