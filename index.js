@@ -1,9 +1,10 @@
 const { Client, LocalAuth } = require('whatsapp-web.js');
 const fs = require('fs');
+const SESSION_FILE_PATH = require('os').homedir();
 
 const client = new Client({
   authStrategy: new LocalAuth( {
-    dataPath: __dirname
+    dataPath: SESSION_FILE_PATH
   })
 });
 
