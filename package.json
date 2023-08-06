@@ -4,7 +4,7 @@
   "description": "A NodeJS API wrapper for whatsapp-web.js",
   "main": "api.js",
   "scripts": {
-    "start": "node api.js",
+    "start": "forever api.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -28,6 +28,7 @@
     "body-parser": "^1.19.2",
     "child_process": "^1.0.2",
     "express": "^4.17.3",
+    "forever": "^4.0.3",
     "fs": "0.0.1-security",
     "nodemon": "^2.0.15",
     "qrcode-terminal": "^0.12.0",
