@@ -1,5 +1,5 @@
 node_modules
-.wwebjs_auth
-.wwebjs_cache
-.cache
-session
+session.json
+temp
+components/last.qr
+.wwebjs_auth/
