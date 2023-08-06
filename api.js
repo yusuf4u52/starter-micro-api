@@ -22,7 +22,7 @@ const port = process.env.PORT || config.port;
 app.use(bodyParser.json({ limit: "50mb" }));
 
 app.use(express.json());
-app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.urlencoded({ extended: true, limit: '10mb' }));
 
 client.on("qr", (qr) => {
   console.log("qr");
